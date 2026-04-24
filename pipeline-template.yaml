@@ -103,6 +103,7 @@ Resources:
                   - iam:DeleteRole
                   - iam:DetachRolePolicy
                   - iam:GetRole
+                  - iam:GetRolePolicy
                   - iam:ListAttachedRolePolicies
                   - iam:ListRolePolicies
                   - iam:PassRole
