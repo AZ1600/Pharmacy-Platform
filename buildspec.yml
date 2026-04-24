@@ -17,6 +17,7 @@ phases:
         sam deploy \
           --stack-name "$STACK_NAME" \
           --region "$AWS_DEFAULT_REGION" \
+          --resolve-s3 \
           --no-confirm-changeset \
           --no-fail-on-empty-changeset \
           --capabilities CAPABILITY_IAM \
